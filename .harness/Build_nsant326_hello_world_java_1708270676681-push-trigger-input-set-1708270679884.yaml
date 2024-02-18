@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nsant326_hello_world_java_1708270676681-push-trigger-input-set
+  identifier: Build_nsant326_hello_world_java_1708270676681pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: java_ci_demo
+  pipeline:
+    identifier: Build_nsant326_hello_world_java_1708270676681
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
