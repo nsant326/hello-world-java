@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nsant326_hello_world_java_1708270676681-pr-trigger-input-set
+  identifier: Build_nsant326_hello_world_java_1708270676681prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: java_ci_demo
+  pipeline:
+    identifier: Build_nsant326_hello_world_java_1708270676681
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
