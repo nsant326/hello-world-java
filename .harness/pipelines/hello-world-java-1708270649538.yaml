@@ -19,10 +19,10 @@ pipeline:
             steps:
               - step:
                   identifier: echo
-                  name: echo
+                  name: creation_of_war_file
                   spec:
-                    shell: Sh
-                    command: mvn --version
+                    shell: Python
+                    command: jar -cvf projectname. war *
                   timeout: ""
                   type: Run
           platform:
