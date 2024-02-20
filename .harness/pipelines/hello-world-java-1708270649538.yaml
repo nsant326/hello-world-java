@@ -22,7 +22,7 @@ pipeline:
                   name: creation_of_war_file
                   spec:
                     shell: Python
-                    command: jar -cvf projectname. war *
+                    command: jar -cvf java ci demo. war *
                   timeout: ""
                   type: Run
           platform:
