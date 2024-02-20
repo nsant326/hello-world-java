@@ -22,7 +22,7 @@ pipeline:
                   name: echo
                   spec:
                     shell: Sh
-                    command: mvn -- version
+                    command: mvn --version
                   timeout: ""
                   type: Run
           platform:
